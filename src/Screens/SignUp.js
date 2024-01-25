@@ -21,6 +21,7 @@ export default function SignUp() {
             alert("Enter valid credentials here")
         }
     }
+    
     const onChange=(event)=>{
         setcredentials({...credentials,[event.target.name]:event.target.value})
     }
